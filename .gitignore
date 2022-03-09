@@ -1,0 +1,10 @@
+__pycache__
+.history
+.hypothesis/
+build/
+reports/
+.venv/
+venv/
+.vscode/
+.env
+.pre-commit-config.yaml
