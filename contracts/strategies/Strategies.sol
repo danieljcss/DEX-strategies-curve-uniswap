@@ -69,10 +69,10 @@ contract Strategies{
 
     constructor() {
         owner = msg.sender;
-        myUSDAddress = ;
-        usdcAddress = ;
-        stableSwapAddress = ;
-        uniRouterAddress = ;
+        myUSDAddress = 0xf6363612297cD8b51Bf4cC7D88349F5a0170086c;
+        usdcAddress = 0x6EA4D174e3f5Ed61bcBFF29CeC8f6959D09016c9;
+        stableSwapAddress = 0x0000000000000000000000000000000000000000;
+        uniRouterAddress = 0x0000000000000000000000000000000000000000;
         strategy = true;
     }
 

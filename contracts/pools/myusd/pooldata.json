@@ -1,10 +1,10 @@
 {
   "base_pool": "3pool",
   "pool_types": ["meta"],
-  "swap_address": "",
-  "lp_token_address": "",
-  "zap_address": "",
-  "gauge_addresses": [""],
+  "swap_address": "0x933D452280Dd9F14464631F2E26523ca083C1a32",
+  "lp_token_address": "0xfAe98BCE499361041c206d86A1fBb3C5D6cEB33D",
+  "zap_address": "0x00e6A2D3067a07b3a167912E116AeE4e0a4B5385",
+  "gauge_addresses": ["0x2B90cA50FE3aE80B3EC7565d5Df8b602FC08D4E1"],
   "lp_contract": "CurveTokenV2",
   "lp_constructor": {
     "symbol": "myusd3CRV",
@@ -20,13 +20,13 @@
       "name": "myUSD",
       "decimals": 6,
       "tethered": false,
-      "underlying_address": ""
+      "underlying_address": "0xf6363612297cD8b51Bf4cC7D88349F5a0170086c"
     },
     {
       "name": "3CRV",
       "decimals": 18,
       "base_pool_token": true,
-      "underlying_address": ""
+      "underlying_address": "0xcf86Bdc5D9Bdc2eDf00cBfB694D14CbF00975710"
     }
   ],
   "testing": {

@@ -23,7 +23,14 @@ Uniswap and other contracts are compiled using Solidity. Installation is also ma
 
 ### Setup
 
-To get started, first create and initialize a Python [virtual environment](https://docs.python.org/3/library/venv.html). Next, install the developer dependencies:
+To get started, first create and initialize a Python [virtual environment](https://docs.python.org/3/library/venv.html).
+
+```bash
+python3 -m venv ./venv
+source venv/bin/activate
+```
+
+Next, install the developer dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -37,7 +44,7 @@ To run the scripts, you need
    ```bash
    brownie accounts new admin
    ```
-   And copy your private key.
+   Paste your private key and set the account password.
 2. Set your Infura ID as an enviroment variable called WEB3_INFURA_PROJECT_ID or by running
    ```bash
    export WEB3_INFURA_PROJECT_ID=YOUR_KEY_HERE

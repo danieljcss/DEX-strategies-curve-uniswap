@@ -19,7 +19,7 @@ POOL_OWNER = accounts.load("admin")
 GAUGE_OWNER = accounts.load("admin")
 
 # Curve DAO token Minter address
-MINTER = ""
+MINTER = "0x4549D553C1675B3027F8b528Aa954AFeEB3b2d64"
 
 def _tx_params():
     return {

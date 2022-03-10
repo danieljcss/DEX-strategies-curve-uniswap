@@ -4,12 +4,12 @@ from brownie import DAI, USDC, USDT, StableSwap3Pool, accounts
 admin = accounts.load("admin")
 
 # setting Smart Contracts for StableCoins and Swap
-dai = DAI.at("")
-usdc = USDC.at("")
-usdt = USDT.at("")
+dai = DAI.at("0x692826529ed5b2114A374AB83ac1a252b5F5A823")
+usdc = USDC.at("0x6EA4D174e3f5Ed61bcBFF29CeC8f6959D09016c9")
+usdt = USDT.at("0x59dc618fA07328D9046C93854B6805A3513F3Ee0")
 
-swap = StableSwap3Pool.at("")
-slippage = 0.005
+swap = StableSwap3Pool.at("0xF996af86dFcc4D6C8fC8b5Aab20767C891B714A7")
+#slippage = 0.005
 
 # Setting parameters for the transaction 
 params = { 'from': admin }

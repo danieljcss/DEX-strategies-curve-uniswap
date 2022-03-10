@@ -4,11 +4,11 @@ from brownie import myUSD, CurveTokenV2, StableSwapMyUSD, accounts
 admin = accounts.load("admin")
 
 # setting Smart Contracts for StableCoins and Swap
-myusd = myUSD.at("")
-tripool = CurveTokenV2.at("")
+myusd = myUSD.at("0xf6363612297cD8b51Bf4cC7D88349F5a0170086c")
+tripool = CurveTokenV2.at("0xcf86Bdc5D9Bdc2eDf00cBfB694D14CbF00975710")
 
 
-swap = StableSwapMyUSD.at("")
+swap = StableSwapMyUSD.at("0x933D452280Dd9F14464631F2E26523ca083C1a32")
 slippage = 0.005
 
 # Setting parameters for the transaction 
